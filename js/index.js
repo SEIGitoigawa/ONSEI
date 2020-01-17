@@ -37,15 +37,15 @@ function transitionPage() {
     var number = document.getElementById("numtext").value;
     
     switch(number) {
-        case "one":
+        case "a":
             window.location.href = "audio1.html";
             break;
         
-        case "two":
+        case "b":
             window.location.href = "audio2.html";
             break;
         
-        case "three":
+        case "c":
             window.location.href = "audio3.html";
             break;
         
@@ -53,15 +53,15 @@ function transitionPage() {
             window.location.href = "audio4.html";
             break;
         
-        case "five":
+        case "d":
             window.location.href = "audio5.html";
             break;
         
-        case "six":
+        case "e":
             window.location.href = "audio6.html";
             break;
         
-        case "seven":
+        case "f":
             window.location.href = "audio7.html";
             break;
     }
