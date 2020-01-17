@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <meta content="ja" http-equiv="content-language">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="shortcut icon" href="fabicon.ico">
+  <script>(function (d, e, j, h, f, c, b) { d.GoogleAnalyticsObject = f; d[f] = d[f] || function () { (d[f].q = d[f].q || []).push(arguments) }, d[f].l = 1 * new Date(); c = e.createElement(j), b = e.getElementsByTagName(j)[0]; c.async = 1; c.src = h; b.parentNode.insertBefore(c, b) })(window, document, "script", "//www.google-analytics.com/analytics.js", "ga"); ga("create", "UA-68964193-9", "auto"); ga("send", "pageview");</script>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+  <title>糸魚川音声解説｜糸魚川実行委員</title>
+</head>
+<body>
+  <!--ここから-->
+  <h1 id= "title">糸魚川音声解説</h1>
+  <h2 id= "num">5</h2>
+  <p>ガイドブックの編集について</p>
+  <audio id= "music1">
+    <source src="audio/05ガイドブックの編集.mp3" type="audio/mp3">
+    <source src="audio/05ガイドブックの編集.ogg" type="audio/ogg">
+    <!--<source src="audio/sample.wav" type="audio/wav">-->
+  </audio>
+  <div id= "buttons">
+    <i class="far fa-play-circle button" onclick="Play()"></i>
+    <i class="far fa-pause-circle button" onclick="Pause()"></i>
+    <i class="far fa-stop-circle button" onclick="Stop()"></i>
+    <br>
+    <br>
+    <input type= "text" id= "numtext" placeholder= "音声番号を入力">
+    <input type= "button" id= "enter" value= "番号を指定" onclick= "transitionPage()">
+    <p>音声番号はone から seven　までを一つ入力してください</p>
+  </div>
+  <!--ここまで-->
+  <h2 id= "c">©️2019 SEIG ITOIGAWA All Rights Reserved</h2>
+  <script src="js/index.js"></script>
+</body>
+</html>
