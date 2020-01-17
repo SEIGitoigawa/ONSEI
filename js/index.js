@@ -49,19 +49,19 @@ function transitionPage() {
             window.location.href = "audio3.html";
             break;
         
-        case "four":
+        case "d":
             window.location.href = "audio4.html";
             break;
         
-        case "d":
+        case "e":
             window.location.href = "audio5.html";
             break;
         
-        case "e":
+        case "f":
             window.location.href = "audio6.html";
             break;
         
-        case "f":
+        case "g":
             window.location.href = "audio7.html";
             break;
     }
